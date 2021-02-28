@@ -18,7 +18,7 @@ class ProductList extends Component {
             quantity: 1,
             product
         });
-        alertify.notify(product.productName + " sepete eklendi");
+        alertify.notify(product.productName + " sepete eklendi", "success");
     }
 
     render() {

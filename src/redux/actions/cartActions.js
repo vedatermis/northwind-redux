@@ -7,7 +7,7 @@ export function addToCart(cartItem) {
     }
 }
 
-export function remoteFromCart(product) {
+export function removeFromCart(product) {
     return {
         type: actionTypes.REMOVE_FROM_CART,
         payload: product
